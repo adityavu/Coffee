@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+span{
+    display: block;
+}
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 30px;
+  color: white;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home p {
+  font-size: 20px;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 30px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
+.content img {
+  width: 300px;
+}
+.content button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: bisque;
+}
+
+.Total {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center ;
+  padding: 20px 40px;
+
+} 
+
+.content1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap:20px;
+}
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.image img {
+  width: 70%;
+}
+
+.content1 h1 {
+    font-size: 40px;
+    color: white;
+  }
+.content1 p {
+  font-size: 20px;
+  color: white;
+}
+.content1 button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: bisque;
+}
+
+.product-section{
+  width:100%;
+display: flex;
+justify-content: space-evenly;
+  align-items:center;
+  
+}
+.products{
+width:30%;
+display: flex;
+justify-content: center;
+  align-items: center;
+  flex-direction: column;
+padding: 5% 8%;
+gap: 30px;
+border: 2px solid bisque;
+
+}
+
+.products h1{
+    color: white;
+    font-size: 25px;
+}
+
+.items p{
+    color: white;
+    font-size: 20px;
+}
+
+.products button{
+background-color: bisque;
+color: black;
+padding:10px;
+border: none;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:40px;
+}
+
+.mans{
+  width : 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+
+
+}
+.yess{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:30px;
+  color: white;
+ 
+}
+.yess a{
+  color: orange;
+}
+.line{
+width:100%;
+display:flex;
+padding:40px;
+justify-content: center;
+}
+hr {
+ border-color: orange;
+  width:50%;
+ height:10%;
+}
+.line1{
+  width:100%;
+  display:flex;
+  padding:40px;
+  justify-content: center;
+  }
+.copy{
+    width:100%;
+    display:flex;
+    padding:40px;
+    justify-content: center;
+    }
+    p {
+      color: white;
+      text-align: center;
+      
+     }
+     a{
+      color:orange;
+     }
+
+
+
+
+
